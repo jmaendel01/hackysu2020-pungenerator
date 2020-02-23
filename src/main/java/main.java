@@ -3,8 +3,8 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class main {
-    static final String modelSource = "C:/Users/Judah/Documents/hackysu2020/src/main/resources/GoogleNews-vectors-negative300.bin.gz";
-    static final String pronouciationDictionary = "C:/Users/Judah/Documents/hackysu2020/src/main/resources/cmudictionary.csv";
+    static final String modelSource = "C:/Users/Judah/Documents/hackysu2020-pungenerator/src/main/resources/GoogleNews-vectors-negative300.bin.gz";
+    static final String pronouciationDictionary = "C:/Users/Judah/Documents/hackysu2020-pungenerator/src/main/resources/cmudictionary.csv";
 
     static String baseWord = "TRUMP";
     static String topic = "SPORTS";
