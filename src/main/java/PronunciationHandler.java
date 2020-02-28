@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 public class PronunciationHandler {
     public HashMap<String,String> pronunciationMap = new HashMap<>();
@@ -107,5 +108,13 @@ public class PronunciationHandler {
         }
 
         return false;
+    }
+
+    List<String> findSimilarSoundingWords(String baseWord) {
+        String baseWordPronunciation = pronunciationMap.get(baseWord);
+
+
+
+        return null;
     }
 }
